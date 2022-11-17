@@ -24,7 +24,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("User List App")),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        title: Center(child: Text("User List App", style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold),)),
       ),
       body: Consumer(
         builder: (context, UserProvider value, child) {
