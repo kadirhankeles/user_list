@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               border:
-                                  Border.all(color: Colors.grey, width: 0.4)),
+                                  Border.all(color: Colors.grey, width: 0.6)),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
